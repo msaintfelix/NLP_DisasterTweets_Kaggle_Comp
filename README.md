@@ -24,6 +24,6 @@ The pre-trained model is compiled with an AdamWeightDecay optimizer and then tra
 	
 The test set comes in a CSV file of unlabeled tweets that need to be pre-processed the same way: tokenize all sequences of text, than call the predict() method to output the probability for each class (0 or 1). And finally use the argmax() function to assign the final label.
   
-  4. Conclusion & Submission on Kaggle
+  	4. Conclusion & Submission on Kaggle
 
 Transformers tend to overfit very quickly, therefore 1 epoch was enough to achieve good performance and label all rows of the CSV test file for submission. Kaggle has an automated system that evaluates scores and ranks submissions. As of today, this project ranks #152 over 952 participants.
