@@ -1,5 +1,5 @@
 # NLP_DisasterTweets_Kaggle_Comp
-NLP Kaggle Competition (Disaster Tweets) 
+NLP Kaggle Competition (Disaster Tweets) using HuggingFace Transformers
 
 # Objective
 
