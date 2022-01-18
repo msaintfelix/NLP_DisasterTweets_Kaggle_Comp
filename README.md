@@ -27,3 +27,5 @@ The test set comes in a CSV file of unlabeled tweets that need to be pre-process
   	4. Conclusion & Submission on Kaggle
 
 Transformers tend to overfit very quickly, therefore 1 epoch was enough to achieve good performance and label all rows of the CSV test file for submission. Kaggle has an automated system that evaluates scores and ranks submissions. As of today, this project ranks #152 over 952 participants.
+
+Check out the execution on my Kaggle: https://www.kaggle.com/marchenrysaintfelix/distilbert-for-sequenceclassification
